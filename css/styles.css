@@ -54,6 +54,8 @@ p {
 
 .container {
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -72,6 +74,8 @@ body {
   background-color: var(--color-four);
   border-bottom: 1px solid #ececec;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-container {
@@ -98,7 +102,6 @@ body {
   color: var(--color-fhree);
   /* cursor: none; */
   display: inline-block;
-  margin-left: 215px;
   padding: 24px 25px;
 }
 
@@ -167,6 +170,7 @@ body {
   left: 0;
   border-radius: 2px;
 }
+
 .link-contact-menu {
   color: var(--color-two);
   /* display: block; */
@@ -199,12 +203,18 @@ body {
 }
 .hero {
   height: 600px;
-  left: 0px;
-  top: 80px;
-  display: block;
+  /* left: 0px;
+  top: 80px; */
+  display: flex;
   text-align: center;
+  align-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 452px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url("../images/image-hero.jpg");
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -219,7 +229,7 @@ body {
   height: 120px;
   left: 452px;
   top: 280px;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .hero-button {
@@ -229,16 +239,19 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  align-items: center;
-  text-align: center;
-  width: 200px;
+  /* width: 200px; */
   height: 50px;
   border-radius: 4px;
   border: none;
-  left: 700px;
-  top: 430px;
   position: absolute;
   cursor: pointer;
+
+  padding: 10px 19px 10px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  margin-left: 248px;
+  margin-top: 10px;
 }
 
 /* Benefits section */
@@ -251,7 +264,9 @@ body {
 .benefits {
   margin-top: 94px;
   margin-bottom: 94px;
-  margin-left: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 215px; */
 }
 
 .list-benefits {
@@ -307,7 +322,7 @@ body {
 
 /* What we do section */
 .do {
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .list-do {
@@ -373,6 +388,8 @@ body {
   height: 648px;
   left: 0px;
   top: 1449px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .text-heading-team {
   font-weight: 700;
@@ -382,14 +399,14 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   margin-top: 94px;
-  padding-left: 417px;
+  /* padding-left: 417px; */
 }
 .list-team {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 215px;
-  margin-left: 215px;
+  /* margin-right: 215px;
+  margin-left: 215px; */
   gap: 30px;
 }
 .item-team {
@@ -480,14 +497,14 @@ body {
 /* Footer section */
 .footer {
   width: 1600px;
-  /* height: 251px; */
-  left: 0px;
-  top: 2097px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-footer {
-  margin-left: 190px;
-  margin-top: 60px;
+  margin-left: -25px;
+  margin-top: 30px;
+  /* margin-bottom: 28px; */
 }
 
 .footer-logo-item {
@@ -504,17 +521,9 @@ body {
   font-style: normal;
 }
 
-.footer-mail-link {
-  font-style: normal;
-  padding-bottom: 12px;
-}
-
-.footer-phone-link {
-  font-style: normal;
-}
-
 .footer-mail-link,
 .footer-phone-link {
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -528,7 +537,7 @@ body {
 
 .contacts-footer {
   display: flex;
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .icon-box {
@@ -585,7 +594,9 @@ body {
 .portofolio {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-left: 230px;
+  /* margin-left: 230px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list-products,
@@ -652,7 +663,7 @@ body {
   margin-top: 50px;
 }
 .list-products {
-  margin-left: calc(-1 * var(--item-product));
+  /* margin-left: calc(-1 * var(--item-product)); */
   margin-bottom: calc(-1 * var(--item-product));
   flex-wrap: wrap;
   justify-content: center;
@@ -732,8 +743,8 @@ body {
 }
 .item-customer {
   display: flex;
-  margin-right: 215px;
-  margin-left: 215px;
+  /* margin-right: 215px;
+  margin-left: 215px; */
   gap: 30px;
   padding-bottom: 94px;
 }
@@ -757,7 +768,7 @@ body {
   transition: var(--transition);
 }
 .text-heading-customers {
-  margin-left: 500px;
+  /* margin-left: 500px; */
   margin-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
